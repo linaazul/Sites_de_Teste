@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+ height: 100vh;
+ font-family: 'Times New Roman', Times, serif;
+}
+
+#header{
+    padding: 10px;
+    background-color: rgb(13, 148, 148);
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    height: 60px;
+    box-shadow: 1px 1px 10px black;
+}
+
+.logo-menu{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-menu img{
+    width: 60px;
+}
+
+.primary-menu h1{
+    border-bottom: solid 2px white;
+}
+
+/*page elements*/
+
+.body{
+ height: 100vh;
+ background-color: red;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-image: url(../img/mulher-afro-americana-de-aparencia-agradavel-segura-blocos-de-notas-papeis-estudos-na-faculdade-feliz-por-terminar-os-estudos.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center center;
+}
+
+.home-page{
+    background: white;
+    border: solid 2px rgb(13, 148, 148);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.home-page h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(13, 148, 148) ;
+    border-bottom: solid 1px  rgb(13, 148, 148);
+    margin-bottom: 20px;
+    
+}
+
+
+.home-page form{
+    display: flex;
+    flex-direction: column;
+}
+
+.home-page label{
+    display: flex;
+    font-size: 18px;
+    color:  rgb(13, 148, 148) ;
+}
+
+.home-page input{
+    height: 30px;
+    width: 320px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color:white;
+    border: solid 1px #999;
+    outline: none;
+}
+
+#btnOpenModal{
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(13, 148, 148);
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+hr{
+    border: 0px;
+    border-top: 1px solid rgb(13, 148, 148);
+}
+
+.modal-container{
+    width: 100vw;
+    position: fixed;
+    top: 30px;
+    z-index:999;
+    justify-content: center;
+    display: none;
+}
+
+.modal{
+display: flex;
+flex-direction: column;
+padding: 30px;
+background-color: white;
+border-radius: 10px;
+width: 50%;
+}
+
+.active{
+    display: flex;
+}
+
+.active .modal{
+    animation: modal .4s;
+}
+
+@keyframes modal{
+from{
+    opacity: 0;
+    transform: translate3d(0,-60px,0);
+}
+to{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+ }
+}
+
+span{
+    margin: 10px auto;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.btns button{
+ font-size: medium;
+ padding: 10px;
+ border: none;
+ color: white;
+ background:  rgb(13, 148, 148)!important;
+  border-radius: 5px;
+cursor: pointer;
+}
+
+.btnOK{
+    background: rgb(13, 148, 148)!important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(rgb(117, 59, 224), rgb(9, 8, 20));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contagem{
+    display: flex;
+    gap: 30px;
+}
+
+#contagem div{
+    padding: 60px;
+    border-radius: 200px;
+    background: rgb(200, 200, 200);
+}
+
+#contagem div span{
+    font-size: 100px;
+    font-family: relogio;
+}
+
+@font-face {
+    font-family: relogio;
+    src: url('/virada/images/DS-DIGIB.TTF');
+}

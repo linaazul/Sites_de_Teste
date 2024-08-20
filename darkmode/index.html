@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salário Liquido</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="images/cherryblossom.png" alt="">
+        </div>
+        <div id="texto">
+            <h1>Calcular Salario</h1>
+        </div>
+    </header>
+    <div class="body">
+        <div id="central">
+            <form>
+                <label for="">Nome: </label>
+                <input type="text" id="nome">
+
+                <label for="">Salário Bruto:</label>
+                <input type="number" id="salarioBruto">
+
+                <button id="butao" onclick ="openModal()">Calcular</button>  
+            </form>
+        </div>
+        <div class="modal-container">
+            <div class="modal">
+                <h2>Salário:</h2>
+                <hr />
+                <p id="salarioLiquido"></p>
+                <hr />
+                <div class="btn">
+                    <button class="btnOk" onclick="closeModal()">OK</button>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

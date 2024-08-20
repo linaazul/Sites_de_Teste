@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    padding: 45px;
+    background: rgb(238, 80, 154);
+    height: 80px;
+    align-items: center;
+    gap: 10px;
+    font-family: bubblegum;
+    color: white;
+}
+
+#logo img{
+    width: 75px;
+}
+
+.body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#central{
+    background: #fb85d084;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border: solid 2px rgb(241, 105, 198);
+    box-shadow: 10px 10px 10px;
+}
+
+#central form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#central form input{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    width: 320px;
+    height: 30px;
+    border: solid 2px black;
+    outline: none;
+    border-radius: 5px;
+}
+
+#central label{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#butao{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    background: rgb(251, 99, 125);
+    width: 100px;
+    cursor: pointer;
+}
+
+.modal hr{
+    border: 0px;
+    border-top: 1px solid rgb(201, 25, 145);
+}
+
+.modal-container{
+    width: 100vw;
+    position: fixed;
+    top: 30px;
+    z-index: 999;
+    justify-content: center;
+    display: none;
+}
+
+.modal{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #fb85d0;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.active{
+    display: flex;
+}
+
+.active .modal{
+    animation: modal .4s;
+}
+
+@keyframes modal{
+    from{
+        opacity: 0;
+        transform: translate3d(0,-60px,0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0,0,0);
+     }
+    }
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.btn button{
+    font-size: medium;
+    padding: 10px;
+    border: none;
+    background:  rgb(251, 99, 125)!important;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#central p{
+    display: flex;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: bubblegum;
+    src: url(../images/Bubblegum.ttf);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+.dia{ 
+    background: #000;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/kon.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noite{
+    background: #000;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/noite.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+
