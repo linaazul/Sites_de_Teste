@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # LinaAzul - Portfólio de Projetos Web 🌐
 
 Repositório contendo projetos web desenvolvidos para prática e aprendizado.
