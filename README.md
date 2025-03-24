@@ -34,9 +34,3 @@ Este repositório tem como propósito:
 4. Descreva claramente as mudanças propostas
 
 > **Nota:** Alguns projetos podem conter erros ou implementações básicas - isso reflete meu processo de aprendizado contínuo.
-
-=======
-# Sites_de_Teste
-Alguns sistes que fiz em atividades ou so em testes bobos.
-Alguns sites podem possuir erros, caso veja algo e deseja ajudar por favor sinalize.
->>>>>>> 036202a22eba710fd501c6b2281097fb31e8e36a
